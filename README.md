@@ -46,7 +46,14 @@ curl -X POST http://localhost:11434/api/generate -d '{
 }'
 ````
 
+# Notas (Comandos para guardar)
+````bash
 git add .
 git commit -m "UPDATE README.md"
 git push -u origin main
+````
+
+````bash
+-o nombre_archivo.md
+````
 
