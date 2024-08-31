@@ -94,16 +94,16 @@ print(x.text)
 
 
 
-# Notas
+# Notas MUY Importantes
 
-## Guardar
+## Guardar archivo "README"
 ````bash
 git add .
 git commit -m "UPDATE README.md"
 git push -u origin main
 ````
 
-## Guardar en un archivo .txt
+## Guardar info en un archivo .txt
 ````bash
 -o nombre_archivo.md
 ````
