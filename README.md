@@ -45,6 +45,36 @@ curl -X POST http://localhost:11434/api/generate -d '{
   "stream": false
 }'
 ````
+## 5. Realizar request a groq
+````bash
+curl "https://api.groq.com/openai/v1/chat/completions" \
+  -X POST \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer ${GROQ_API_KEY}" \
+  -d '{
+         "messages": [
+           {
+             "role": "user",
+             "content": "¿Porqué el cielo es azul?"
+           }
+         ],
+         "model": "gemma-7b-it",
+         "temperature": 1,
+         "max_tokens": 1024,
+         "top_p": 1,
+         "stream": false
+       }'
+````
+## 6. Exportar mi Api Key
+````bash
+export OPENAI_API_KEY=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
+````
+
+## 7. Guardar mi Api Key
+````bash
+echo $GROQ_API_KEY
+````
+
 
 # Notas
 
@@ -59,4 +89,3 @@ git push -u origin main
 ````bash
 -o nombre_archivo.md
 ````
-
