@@ -92,7 +92,8 @@ x = requests.post(url, json = myobj)
 print(x.text)
 ````
 
-# Notas MUY Importantes
+
+# Notas DEMASIADO Importantes
 
 ## Guardar
 ````bash
