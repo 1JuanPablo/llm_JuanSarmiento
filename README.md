@@ -96,7 +96,7 @@ print(x.text)
 
 # Notas MUY Importantes
 
-## Guardar archivo "README"
+## Guardar
 ````bash
 git add .
 git commit -m "UPDATE README.md"
