@@ -92,15 +92,6 @@ x = requests.post(url, json = myobj)
 print(x.text)
 ````
 
-
-
-
-
-
-
-
-
-
 # Notas MUY Importantes
 
 ## Guardar
