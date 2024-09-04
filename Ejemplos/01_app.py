@@ -5,22 +5,20 @@
 }'
 """
 
-import requests
-import json
+import requests # tiene funciones similares a CURL
+import json # permite convertir de texto a JSON
 
 url = 'http://localhost:11434/api/generate'
-data = {
+
+while True:
+  prompt = input("PROMP:")
+  datos = {
   "model": "tinyllama",
-  "prompt": "Why is the sky blue?",
+  "prompt": prompt,
   "stream": False
 }
 
-headers{
-"Content-Type": "application/json"
-}
-
-response = requests.post(url, json = data, headers = headers)
-
+response = requests.post(url, json = datos)
 response = json.loads(response.text)
 
 print(response["response"])
