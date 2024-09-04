@@ -93,7 +93,7 @@ print(x.text)
 ````
 
 
-# Notas DEMASIADO Importantes
+# Notas MUY Importantes
 
 ## Guardar
 ````bash
