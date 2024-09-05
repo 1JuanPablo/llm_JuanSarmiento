@@ -92,6 +92,10 @@ x = requests.post(url, json = myobj)
 print(x.text)
 ````
 
+## 10. Lanzar servidor HTTP
+````bash
+python3 -m http.server 8080
+````
 
 # Notas MUY Importantes
 
